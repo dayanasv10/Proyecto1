@@ -6,14 +6,14 @@
 	int 0x80
 %endmacro
 segment .data 
-	msg1 db  0xA,0x9,"ingrese un numero y presione enter, 5 veces: $",0xA
+	msg1 db  0xA,0x9,"Ingrese un número: $",0xA
 	lon1 equ $- msg1
 	
 
 	;msg2 db  0xA
 	;;lon2 equ $- msg2
 
-	msg3 db  0xA,0x9,"los numeros ordenados son: "
+	msg3 db  0xA,0x9,"Los numeros ordenados son: "
 	lon3 equ $- msg3
 	
 
